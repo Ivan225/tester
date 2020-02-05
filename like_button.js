@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset = "UTF-8"/>
@@ -36,6 +36,32 @@
 
       Вы также можете использовать React без JSX, в этом случае вы можете удалить Babel:
       https://reactjs.org/docs/react-without-jsx.html
+
+	А это стартовый код, куда его вставлять?
+
+	'use strict';
+
+const e = React.createElement;
+
+class LikeButton extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: false };
+  }
+
+  render() {
+    if (this.state.liked) {
+      return 'You liked this.';
+    }
+
+    return e(
+      'button',
+      { onClick: () => this.setState({ liked: true }) },
+      'Like'
+    );
+  }
+}
+	
     -->
   </body>
 </html>
