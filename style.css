@@ -1,0 +1,99 @@
+a {
+    color:red;
+    font-size: 80%;
+}
+
+div {
+    color: rgba(0, 130, 200, 0.7);
+}
+
+#a12 {
+    color: blue;
+}
+
+#a22    {
+    font-size: 20px;
+    color:purple;
+}
+
+.human  {
+    color: grey;
+}
+
+.animal {
+    color: red;
+}
+
+.message {
+    color: #747474;
+    font-size: 20px;
+    background-color: #E4E4E4;
+    border: 2px solid #323232;
+    margin: 30px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.success {
+    background-color: #19A15F;
+    color: #ffffff;
+}
+
+.fail {
+    background-color: #D65144;
+    color: #ffffff;
+}
+
+.info {
+    background-color: #4B8BF5F;
+    color: #blue;
+}
+
+.warning {
+    background-color: #FFCE43;
+    color: #000000;
+}
+
+.message:hover {
+    border: 10px solid #323232;
+}
+
+#a22:hover {
+    border: 2px solid #323232;
+}
+
+div:hover {
+    border: 1px solid #323232;
+}
+
+body {
+    background-image: url(images/1.jpg);
+}
+
+#test {
+    transform: scale(0.5);
+    transition: 5s;
+
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid red;
+    border-radius: 30px;
+    opacity: 0.5;
+    box-shadow: 23px 23px 7px black;
+    width: 80%;
+    height: 200px;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+
+#test:hover {
+    opacity: 0.5;
+    transform: rotate(45deg) scale(0.25);
+    background: #19A15F;
+}
